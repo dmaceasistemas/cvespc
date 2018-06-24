@@ -1,0 +1,17 @@
+/* Define el estilo a las celdas */
+.celdas {
+	background-color: #DCA8A8;
+}
+
+td	{
+	padding:	0.01mm;
+	border: solid 0.01mm black;
+	text-align:	center;
+	width: 10mm;
+	height: 12mm; 
+}
+
+table 	{
+	width:	90%;
+	font-size: 10px;
+	}

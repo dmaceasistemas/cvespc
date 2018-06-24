@@ -1,0 +1,35 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>EAN barcodes</title>
+<style type="text/css">
+body {font-family:"Times New Roman",serif}
+h1 {font-size:150%; color:#4000A0}
+h4 {font-weight:bold; color:#900000}
+</style>
+</head>
+<body>
+<h1>EAN barcodes</h1>
+<h4>Informations</h4>
+Author: <a href="mailto:oliver@fpdf.org?subject=EAN%20barcodes">Olivier</a><br>
+License: FPDF
+<h4>Description</h4>
+This script implements EAN13 and UPC-A barcodes (the second being a particular case of the first
+one). Bars are drawn directly in the PDF (no image is generated).<BR>
+<BR>
+<TT>EAN13(<B>float</B> x, <B>float</B> y, <B>string</B> barcode [, <B>float</B> h [, <B>float</B> w]])</TT><BR>
+<BR>
+<TT><U>x</U></TT>: abscissa of barcode.<BR>
+<TT><U>y</U></TT>: ordinate of barcode.<BR>
+<TT><U>barcode</U></TT>: value of barcode.<BR>
+<TT><U>h</U></TT>: height of barcode. Default value: 16.<BR>
+<TT><U>w</U></TT>: width of a bar. Default value: 0.35.<BR>
+<BR>
+<TT>UPC_A(<B>float</B> x, <B>float</B> y, <B>string</B> barcode [, <B>float</B> h [, <B>float</B> w]])</TT><BR>
+<BR>
+Same parameters.</BR>
+<BR>
+An EAN13 barcode is made up of 13 digits, UPC-A of 12 (leading zeroes are added if necessary).
+The last digit is a check digit; if it's not supplied, it will be automatically computed.
+</body>
+</html>

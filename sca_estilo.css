@@ -1,0 +1,81 @@
+/*Estilo del Contenido de la Web*/
+body         {
+	font-size: 12px;
+	font-family: Verdana, Arial;
+}
+
+/*Define El Estilo en cuanto al cmapo de text area*/
+textarea {
+font-size:12;
+font-family:Arial;}
+
+/* Define el estilo en cuanto a las tablas de los formularios*/
+table	{
+	font-size: 12px;
+	font-family: Verdana, Arial;
+}
+
+/*Botones de input al estilo Enviar, Siguiente, Guardar, Modificar*/
+input	{
+font-size: 12px; 
+font-family: Verdana, Arial;
+}
+
+/*Estilos de los Combos List*/
+select {
+font-size: 12px;
+font-family: Verdana, Arial;
+}
+
+/*Inicio Enlaces .a*/
+a {
+	font-family: Verdana, Arial;
+	font-size: 12px;
+	color: #b40707;
+}
+a:link {
+	font-family: Verdana, Arial;
+	text-decoration: none;
+	font-size: 12px;
+}
+a:visited {
+	font-family: Verdana, Arial;
+	text-decoration: none;
+	font-size: 12px;
+	color: #b40707;
+}
+a:hover {
+	font-family: Verdana, Arial;
+	font-size: 12px;
+	text-decoration: underline;
+	color: #b40707;
+}
+a:active {
+	font-family: Verdana, Arial;
+	font-size: 12px;
+	text-decoration: none;
+	color: #b40707;
+}
+
+/* Define el estilo en cuanto a las tablas SQL*/
+.tabla_sql	{
+	font-size: 11px;
+	font-family: Verdana, Arial;
+}
+
+/* Define el estilo en cuanto a las tablas del Arbol*/
+.tabla_arbol	{
+	font-size: 15px;
+	font-family: Verdana, Arial;
+}
+
+/* Define el estilo a las celdas */
+.celdas {
+	background-color: #DCA8A8;
+}
+
+.Estilo1 {	
+	font-size: 12px;
+	font-family:  Verdana, Arial;
+	color: #990000;
+}

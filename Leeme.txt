@@ -1,0 +1,25 @@
+Notas
+- En bd_respaldo se encuentra el sql para el gestor de Bases de Datos Mysql
+
+- Se le configura para la base de datos en :	sca_funciones.php
+
+- Nombre de la Base de datos:			db_sca
+
+- Usuario de la aplicación (Modulo de Acceso)
+    usuario: 	demo2
+    clave:	demo2
+
+- Usuario de la aplicación (Modulo de Acceso y Correspondencia)
+    usuario: 	demo
+    clave:	demo
+
+- Usuario de la aplicación (Modulo de Correspondencia)
+    usuario: 	correspondencia
+    clave:	123456
+
+- Usuario para crear usuarios y configurar las bases de datos Sigesp y SISYC
+    usuario: 	demo3
+    clave:	demo3
+
+Breve descripción:
+El sistema permite registrar la entrada y salida de los visitantes de una institución, Tiene posibilidad de conectarse con las bases de Datos de Personal Nomina de Sigesp y el Arbol de Procedencias y Emisores del Sistema SISYC

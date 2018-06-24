@@ -1,0 +1,28 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Code 128 barcodes</title>
+<style type="text/css">
+body {font-family:"Times New Roman",serif}
+h1 {font-size:150%; color:#4000A0}
+h4 {font-weight:bold; color:#900000}
+</style>
+</head>
+<body>
+<h1>Code 128 barcodes</h1>
+<h4>Informations</h4>
+Author: <a href="mailto:dir@persolaser.com?subject=Code%20128%20barcodes">Roland Gautier</a><br>
+License: Freeware
+<h4>Description</h4>
+This script handles Code 128 barcodes (A, B and C). All the 128 ASCII characters are available.
+A, B and C character sets are automatically selected according to the value to print.<br>
+<br>
+<code>Code128(<b>float</b> x, <b>float</b> y, <b>string</b> code, <b>float</b> w, <b>float</b> h)</code><br>
+<br>
+<code><u>x</u></code>: abscissa<br>
+<code><u>y</u></code>: ordinate<br>
+<code><u>code</u></code>: barcode value<br>
+<code><u>w</u></code>: total width<br>
+<code><u>h</u></code>: height<br>
+</body>
+</html>
